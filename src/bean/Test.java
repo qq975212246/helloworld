@@ -12,6 +12,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		try {
+			
+			int a=1;
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/how2java?characterEncoding=UTF-8",
